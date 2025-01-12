@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Car-Surgeon/static/css/main.5d5a7436.css",
+    "main.js": "/Car-Surgeon/static/js/main.58e0eb30.js",
+    "index.html": "/Car-Surgeon/index.html",
+    "main.5d5a7436.css.map": "/Car-Surgeon/static/css/main.5d5a7436.css.map",
+    "main.58e0eb30.js.map": "/Car-Surgeon/static/js/main.58e0eb30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d5a7436.css",
+    "static/js/main.58e0eb30.js"
+  ]
+}

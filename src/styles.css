@@ -1,0 +1,429 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* NAVBAR */
+
+#logo {
+  /* border: 1px red solid; */
+  width: 30%;
+  height: 100%;
+  padding: 10px 30px 10px 30px;
+}
+
+#navbox {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  width: 90%;
+  transition: all 1s ease-in-out;
+  padding: 30px 5% 30px 5%;
+  z-index: 1;
+}
+
+#navbar {
+  color: black;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.navigation {
+  font-family: sans-serif;
+  font-size: 15px;
+  /* border: 1px solid red; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Navbar Buttons */
+
+.nav-btn-box {
+  box-shadow: inset 3px 3px 30px 5px, inset -3px -3px 30px 5px;
+}
+
+.nav-btn {
+  font-family: sans-serif;
+  font-size: 21px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 6em;
+  overflow: hidden;
+  border: none;
+
+  background-color: red;
+  text-align: left;
+}
+
+.nav-btn > span {
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-btn:hover span {
+  color: white;
+}
+
+.nav-btn::after {
+  position: absolute;
+  content: "";
+  height: 3em;
+  width: 6em;
+
+  transition: all 0.5s ease-in-out;
+
+  background-color: white;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-btn:hover:after {
+  right: -7.8em;
+}
+
+/* Navbar Buttons */
+
+/* NAVBAR */
+
+/* WELCOME */
+
+#welcome {
+  height: 100vh;
+  width: 93vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vw 3vw 0vw 3vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* border: 1px red solid; */
+  /* position: relative; */
+  /* background-size: cover; */
+  /* filter: blur(3px); */
+  /* z-index: -1; */
+}
+
+#welcome > button {
+  position: fixed;
+  top: 1vh;
+  left: 93vw;
+  z-index: 2;
+  border: none;
+  border-radius: 50%;
+  background: none;
+  height: 60px;
+  width: 60px;
+  font-size: 1.5vw;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+
+#welcome > button:hover {
+  color: black;
+}
+
+#welcome > img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%) blur(3px);
+  top: 0;
+  left: 0;
+}
+
+.welcome-elements {
+  /* border: 1px white solid; */
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.welcome-elements > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.welcome-elements > h1 > span {
+  font-size: 90px;
+  text-align: center;
+  /* border: 1px white solid; */
+  width: fit-content;
+  margin: 0px 12px 0px 12px;
+}
+
+.welcome-elements > div {
+  border-top: 6px red solid;
+  height: 60%;
+  width: 24%;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1% 1.5% 1% 1.5%;
+}
+
+.welcome-elements > div > h1 {
+  font-size: 105px;
+  /* border: 1px pink solid; */
+  color: red;
+}
+
+.welcome-elements > div > h4 {
+  font-size: 27px;
+  /* color: red; */
+}
+
+.welcome-elements > div > h6 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* WELCOME */
+
+/* FOOTER */
+
+#footer {
+  height: 51vh;
+  width: 100vw;
+  background-color: red;
+  color: white;
+  /* border: 3px white solid; */
+  padding-top: 10vh;
+}
+
+#footer > div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  overflow: hidden;
+  /* border: 1px white solid; */
+}
+
+#footer > div > h1 {
+  position: relative;
+  font-size: 9vw;
+  /* border: 1px white solid; */
+  top: 18px;
+}
+
+/* FOOTER */
+
+/* SERVICEBOX */
+
+#services {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90.9vw;
+  height: 100vh;
+  /* border: 1px red solid; */
+  padding: 21px 60px 45px 60px;
+}
+
+#service-box {
+  position: relative;
+  width: 72%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  place-items: center;
+  left: 10px;
+  /* padding: 0% 0% 0 0;
+  gap: 0%; */
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  place-items: center;
+  position: relative;
+  height: 84%;
+  width: 90%;
+  /* overflow: hidden; */
+  /* border: 1px white solid; */
+  /* padding: 10px 20px 10px 10px; */
+}
+
+.box > img {
+  /* visibility: hidden; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.75s ease-in-out;
+}
+
+.service-elements > ul {
+  list-style-type: circle;
+}
+
+.service-elements > ul > li {
+  color: white;
+  text-align: left;
+  font-size: 1.5em;
+  margin: 20px 0 20px 0;
+}
+
+#titles {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  height: 100%;
+  /* border: 1px white solid; */
+  padding-top: 6%;
+}
+
+#titles > div > h2 {
+  font-size: 51px;
+  transition: all 0.5s ease-in-out;
+  font-weight: 100;
+  width: fit-content;
+}
+
+#titles > div > h1 {
+  font-size: 66px;
+  transition: all 0.1s ease;
+  margin-bottom: 30px;
+  /* border: 1px white solid; */
+}
+
+/* SERVICEBOX */
+
+/* REVIEWS */
+
+#review {
+  height: 100vh;
+  width: 100vw;
+  /* border: 1px white solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews {
+  position: relative;
+  /* border: 1px white solid; */
+  width: 99.93%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 21px 10px 21px 10px;
+}
+
+.rev-box {
+  position: absolute;
+  /* border: 1px red solid; */
+  width: 300%;
+  height: 81%;
+  display: flex;
+  align-items: center;
+}
+
+.review-element {
+  /* border: 1px solid yellow;  */
+  position: relative;
+  background-color: #87ceeb;
+  height: 90%;
+  width: 25%;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 39px 45px 39px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.speed1 {
+  animation: slide 100s linear infinite;
+}
+
+.speed2 {
+  animation: slide 120s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    right: -20%;
+  }
+  to {
+    right: 25%;
+  }
+}
+
+.review-element > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  font-size: 2em;
+  height: fit-content;
+  width: 100%;
+}
+
+.author {
+  margin-top: 0;
+  font-size: 1.2em;
+  text-align: right;
+  height: fit-content;
+  width: 75%;
+}
+
+/* REVIEWS */

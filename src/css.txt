@@ -1,0 +1,133 @@
+/* PHONES */
+
+@media (max-width: 426px) {
+  /* NAVBAR */
+
+  #navbox {
+    width: 100%;
+    padding: 30px 0% 30px 10%;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  /* NAVBAR */
+
+  /* WELCOME */
+
+  #welcome {
+    height: 50vh;
+    width: 70.5%;
+    padding: 60px 60px 60px 60px;
+    border: 1px white solid;
+  }
+
+  #welcome > button {
+    top: 1%;
+    right: 54%;
+    font-size: 24px;
+  }
+
+  #welcome > img {
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 63%;
+  }
+
+  .welcome-elements {
+    height: 100%;
+  }
+
+  .welcome-elements > h1 > span {
+    font-size: 39px;
+    margin: 0px 6px 0px 6px;
+  }
+
+  .welcome-elements > div > h1 {
+    font-size: 33px;
+  }
+
+  .welcome-elements > div > h4 {
+    font-size: 9px;
+    margin-bottom: 3%;
+  }
+
+  .welcome-elements > div > h6 {
+    font-size: 6px;
+  }
+
+  /* WELCOME */
+
+  /* FOOTER */
+
+  #footer {
+    padding: 60px 30px 0px 30px;
+  }
+
+  #footer > div {
+    flex-direction: column;
+  }
+
+  #footer > div > div {
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  #footer > div > h1 {
+    font-size: 69px;
+    top: 0px;
+  }
+
+  /* FOOTER */
+
+  /* SERVICEBOX */
+
+  #services {
+    flex-direction: column;
+    width: 90.9vw;
+    height: 100vh;
+    padding: 21px 0px 45px 15px;
+  }
+
+  #service-box {
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    margin-top: 30px;
+  }
+
+  .box {
+    height: 75%;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .box > img {
+    height: 90%;
+    width: 81%;
+    margin-left: 20px;
+  }
+
+  .service-elements > ul > li {
+    font-size: 0.75em;
+    margin: 0px 0px 10px 0px;
+  }
+
+  #titles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    color: white;
+    height: 90%;
+    /* border: 1px white solid; */
+    padding-top: 6%;
+  }
+
+  /* SERVICEBOX */
+}
+
+*/
