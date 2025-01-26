@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CarSurgeon/static/css/main.d166f352.css",
-    "main.js": "/CarSurgeon/static/js/main.6ae8dd52.js",
-    "index.html": "/CarSurgeon/index.html",
-    "main.d166f352.css.map": "/CarSurgeon/static/css/main.d166f352.css.map",
-    "main.6ae8dd52.js.map": "/CarSurgeon/static/js/main.6ae8dd52.js.map"
+    "main.css": "/static/css/main.d166f352.css",
+    "main.js": "/static/js/main.9ac91926.js",
+    "index.html": "/index.html",
+    "main.d166f352.css.map": "/static/css/main.d166f352.css.map",
+    "main.9ac91926.js.map": "/static/js/main.9ac91926.js.map"
   },
   "entrypoints": [
     "static/css/main.d166f352.css",
-    "static/js/main.6ae8dd52.js"
+    "static/js/main.9ac91926.js"
   ]
 }
