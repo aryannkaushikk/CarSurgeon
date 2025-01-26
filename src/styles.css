@@ -403,8 +403,8 @@ h6 {
 
 @media (max-width: 1024px){
 
-  #services{
-    border: 1px white solid;
+  #welcome > button{
+    left: 81vw;
   }
 
   #service-box{
