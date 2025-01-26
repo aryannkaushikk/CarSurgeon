@@ -36,7 +36,7 @@
     "deploy": "gh-pages -d build",
     "clean": "del /s /q build"
   },
-  "homepage": "https://aryannkaushikk.github.io/CarSurgeon",
+  
   "browserslist": [
     ">0.2%",
     "not dead",

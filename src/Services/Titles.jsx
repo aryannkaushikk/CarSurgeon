@@ -27,7 +27,7 @@ export default function Titles({ onMouseLeave,onMouseEnter,activeBoxIndex }) {
             style={{
               color: index === activeBoxIndex ? "#FA8072" : "white",
               fontSize: index === activeBoxIndex ? "8.1vmin" : "6.9vmin",
-              padding: index === activeBoxIndex ? "10px 0px 10px 21px" : "0px",
+              padding: index === activeBoxIndex ? "2.4vmin 0px 2.4vmin 6vmin" : "0px",
             }}
             onMouseEnter={() => onMouseEnter(index)}
             onMouseLeave={onMouseLeave}
