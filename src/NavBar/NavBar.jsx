@@ -13,7 +13,7 @@ export default function NavBar({ buttonPressed }) {
     <div id="navbox" style={{ top: buttonPressed ? 0 : "-100%" }}>
       <div id="navbar">
         <div id="logo">
-          <img src="Media/logo.jpg" alt="logo" height="50%" />
+          <img src="Media/logo.jpg" alt="logo"/>
         </div>
         <div className="navigation">
           <NavButton key="1" index="0" data="Home" onClick={handleButtonClick}/>
