@@ -13,20 +13,20 @@ export default function Titles({ onMouseLeave,onMouseEnter,activeBoxIndex }) {
       transition={{ duration: 2 }}
       id="titles"
     >
-      <div style={{ height: "36%" }}>
+      <div style={{width:"50%", height: "100%" }}>
         <h1>
           Service
           <br />
           We Provide
         </h1>
       </div>
-      <div style={{ height: "39%" }}>
+      <div style={{ height: "100%"}}>
         {elements.map((element, index) => (
           <h2
             key={element.key}
             style={{
               color: index === activeBoxIndex ? "#FA8072" : "white",
-              fontSize: index === activeBoxIndex ? "60px" : "54px",
+              fontSize: index === activeBoxIndex ? "8.1vmin" : "6.9vmin",
               padding: index === activeBoxIndex ? "10px 0px 10px 21px" : "0px",
             }}
             onMouseEnter={() => onMouseEnter(index)}
